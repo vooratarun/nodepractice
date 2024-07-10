@@ -1,0 +1,25 @@
+Architectural Flow
+Here’s a simplified flow of how Node.js handles incoming client requests:
+
+Event Loop Initialization: When the Node.js server starts, it initializes the event loop.
+
+Incoming Request: The server receives an incoming request and places it in the event queue.
+
+Event Loop Processing: The event loop picks up the request from the queue and processes it.
+
+Asynchronous Operation: If the request involves an I/O operation (e.g., reading a file, querying a database), the event loop delegates it to the thread pool provided by libuv.
+
+Callback Invocation: Once the I/O operation completes, a callback is invoked to handle the result.
+
+
+Response to Client: The server sends the response back to the client.
+
+Advantages of Node.js Architecture
+
+Scalability: The non-blocking I/O and event-driven model enable Node.js to handle a large number of simultaneous connections with minimal overhead.
+
+Efficiency: The single-threaded event loop and use of V8 engine make Node.js highly efficient for I/O-bound tasks.
+
+Consistency: Using JavaScript for both client-side and server-side development simplifies the development process and improves code consistency.
+
+Rich Ecosystem: NPM provides access to a vast array of libraries and modules, speeding up development and fostering a strong community.
