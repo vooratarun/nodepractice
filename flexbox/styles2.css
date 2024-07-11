@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .header{
+    background-color: yellow;
+    color: black;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .navbar{
+    background-color: red;
+    color: black;
+    padding: 20px;
+    text-align: center; 
+  }
+
+  .main-content{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    padding: 20px;
+  }
+
+  .content{
+    flex:3;
+    background-color: aqua;
+    padding: 20px;
+  }
+
+  .sidebar {
+    flex: 1;
+    background-color: aquamarine;
+  }
+
+  .footer{
+    background-color: beige;
+    padding: auto;
+    padding: 20px;
+
+  }
