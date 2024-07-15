@@ -50,7 +50,7 @@ class Animal {
   
     // Getter
     get area() {
-      return this.width + this.height;
+      return this.width * this.height;
     }
   
     // Setter
