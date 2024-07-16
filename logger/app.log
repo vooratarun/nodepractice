@@ -1,0 +1,5 @@
+2024-07-15 18:33:47 info: Server is running on port 3000
+2024-07-15 18:35:37 info: GET /
+2024-07-15 18:35:37 info: GET /favicon.ico
+2024-07-15 18:35:59 info: GET /error
+2024-07-15 18:35:59 error: This is an error message
